@@ -11,5 +11,13 @@ Please install docker-compose
 
 ## Work Space
 This section deals with workspace settings of the platform docker. 
-Create a directory at your prefered location and update the path in the docker-compose file
+Create a directory at your prefered location and update the path `SHARED_VOLUME_PATH` in the file `platform_setup`
+
+## Setup the container 
+
+Run the following command to bringup the platform
+
+`platform_setup`
+
+
 
