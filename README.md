@@ -33,5 +33,12 @@ Run the following command to bringup the platform
 
 `sh platform_setup`
 
+To get the command shell
+
+`sh platform_shell`
+
+The command `sh platform_shell` can run on multiple windows to lauch multiple shell prompts of the container
+
+
 
 
