@@ -31,7 +31,7 @@ SHARED_VOLUME_PATH=/Users/my_user_name/code
 
 Run the following command to bringup the platform
 
-`platform_setup`
+`sh platform_setup`
 
 
 
