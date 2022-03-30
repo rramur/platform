@@ -13,6 +13,20 @@ Please install docker-compose
 This section deals with workspace settings of the platform docker. 
 Create a directory at your prefered location and update the path `SHARED_VOLUME_PATH` in the file `platform_setup`
 
+For Exmaple, follow steps are required setup a new directory name `Code` on your host and map it to your container 
+
+```
+cd
+mkdir code
+```
+
+will create code directory at your home folder. Extract the complete path using `pwd` and copy the path. Update the path value at `SHARED_VOLUME_PATH` in the file `platform_setup`
+
+```
+SHARED_VOLUME_PATH=/Users/my_user_name/code
+```
+
+
 ## Setup the container 
 
 Run the following command to bringup the platform
