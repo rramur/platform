@@ -8,7 +8,6 @@ export SHARED_VOLUME_PATH=/Users/user/Documents/Code
 #Clean container and images
 docker-compose down
 docker rm -f platform_c
-# docker rmi -f $DEPLOY_IMAGE
 
 # Bring up containers  
 docker-compose up -d
